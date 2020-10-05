@@ -1,0 +1,70 @@
+body{
+    background: #2780E6;
+    font-family:cursive;
+    font-weight:bolder;
+    display:flex;
+    justify-content:center;
+}
+.Content{
+    background: #9EC1E9;
+    width:500px;
+    height:500px;
+}
+header{
+    display:flex;
+    justify-content:center;
+    font-size:50px;
+    text-decoration:underline;
+    text-decoration-style: dashed;
+    color: #052953;
+}
+.listItems{
+    display:flex;
+    justify-content:center;
+}
+input{
+  font-size:30px;
+  font-family:cursive;
+font-weight:bolder;
+color: white;
+background:#2780E6;
+border-color:black;
+border-right-width: 4px;
+border-top-width:3px;
+margin-left:10px;
+}
+button{
+    cursor: pointer;
+    border-radius: 10px;
+    font-family:cursive;
+font-weight:bolder;
+color:white;
+background: #2780E6;
+border-color:black;
+border-right-width: 4px;
+border-top-width:3px;
+margin-left:10px;
+}
+button:hover{
+    background-color: #052953;
+}
+ul li:hover {
+    background:white;
+    border-radius: 5px;
+    padding-left:10px;
+  }
+ul li.checked {
+    color: #DDCAD8;
+    text-decoration: line-through;
+  }
+  ul li.checked::after {
+    position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+  }
