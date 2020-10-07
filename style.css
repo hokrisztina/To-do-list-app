@@ -7,8 +7,8 @@ body{
 }
 .Content{
     background: #9EC1E9;
-    width:500px;
-    height:500px;
+    width:600px;
+    height:600px;
 }
 header{
     display:flex;
@@ -22,9 +22,10 @@ header{
     display:flex;
     justify-content:center;
 }
+
 input{
-  font-size:30px;
-  font-family:cursive;
+font-size:30px;
+font-family:cursive;
 font-weight:bolder;
 color: white;
 background:#2780E6;
@@ -33,16 +34,18 @@ border-right-width: 4px;
 border-top-width:3px;
 margin-left:10px;
 }
-button{
-    cursor: pointer;
-    border-radius: 10px;
-    font-family:cursive;
+.addBtn{
+cursor: pointer;
+width:40px;
+border-radius: 10px;
+font-family:cursive;
 font-weight:bolder;
 color:white;
 background: #2780E6;
-border-color:black;
-border-right-width: 4px;
-border-top-width:3px;
+text-align: center;
+transition: 0.3s;
+border-radius: 10px;
+padding: 10px;
 margin-left:10px;
 }
 button:hover{
@@ -54,8 +57,9 @@ ul li:hover {
     padding-left:10px;
   }
 ul li.checked {
-    color: #DDCAD8;
+    color: #BF909D;
     text-decoration: line-through;
+    font-weight:5;
   }
   ul li.checked::after {
     position: absolute;
